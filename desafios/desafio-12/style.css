@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    margin: auto;
+    padding: 0px;
+}
+
+html,css {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-variant: small-caps;
+}
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+section{
+    padding: 30px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+    background-color: white;
+}
+.imagem{
+    background-color: rgba(0, 0, 0, 0.308);
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+
