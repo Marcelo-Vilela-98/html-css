@@ -3,6 +3,11 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     background-image: url(../imagens/Pokemon-Hd-Wallpaper-2013.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+
     color: #333333;
 }
 
