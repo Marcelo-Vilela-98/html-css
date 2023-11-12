@@ -1,0 +1,11 @@
+@charset "UTF-8";
+* {
+margin: 0px;
+padding: 0px;
+}
+body{
+background : linear-gradient(to right top, rgba(0, 0, 255, 0.753),rgba(9, 172, 9, 0.726), rgba(238, 255, 0, 0.438), rgba(190, 14, 14, 0.473));  
+background-repeat: no-repeat;
+background-size: 100vw 100vh; 
+
+}
