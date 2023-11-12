@@ -10,30 +10,45 @@
             margin: 0px;
         }
 
-        body {
-            background-color: aliceblue;
-        }
-
         h1 {
             text-align: center;
-            background-color: black;
+            background-color: rgba(0, 0, 0, 0.63);
             color: white;
-            padding: 20px;
             font-family: monospace;
+            margin: auto;
+            width: 410px;
+        }
+
+        caption {
+            background-color: rgba(0, 0, 0, 0.548);
+            color: white;
         }
 
         table {
-            background-color: gray;
-            width: 600px;
+            background-color: rgba(128, 128, 128, 0.658);
+            width: 410px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
         }
 
         td,
-        td {
+        tr,
+        th {
             border: 2px solid black;
             font-family: sans-serif;
         }
+
+        thead>tr>th {
+            position: sticky;
+            top: -01px;
+            background-color: rgb(128, 128, 128);
+        }
+
+        tbody>tr:nth-child(odd) {
+            background-color: white;
+        }
+
 
         .num {
             text-align: right;
@@ -51,14 +66,15 @@
 <body>
     <main>
         <h1>
-            Lista de unidades federativas do Brasil por população
+            Listas Grandes
         </h1>
         <table>
+            <caption>Unidades Federativas por População</caption>
             <thead>
                 <tr>
-                    <td>Posição</td>
-                    <td>Estado</td>
-                    <td>população</td>
+                    <th scope="col" style="width: 60px;">Posição</th>
+                    <th scope="col" style="width: 200px;">Estado</th>
+                    <th scope="col" style="width: 150px;">população</th>
                 </tr>
             </thead>
             <tbody>
@@ -200,7 +216,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td>Total</td>
+                    <th scope="row">Total</th>
                     <td>210.147.125</td>
                 </tr>
             </tfoot>
