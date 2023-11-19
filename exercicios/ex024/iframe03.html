@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iframe</title>
     <style>
-        body{
+        body {
             background-color: lightgray;
             font-family: Arial, Helvetica, sans-serif;
         }
-        iframe{
+
+        iframe {
             border: 2px solid black;
             width: 95vw;
             height: 300px;
             display: block;
             margin: auto;
         }
-
     </style>
 </head>
+
 <body>
     <h1>Faça uma escolha</h1>
     <ul>
@@ -26,9 +28,14 @@
         <li><a href="pasta-de-iframes/teste02.html" target="frame">segunda escolha</a></li>
         <li><a href="pasta-de-iframes/teste03.html" target="frame">terçeira escolha</a></li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat distinctio, aperiam blanditiis, et odio sunt fuga suscipit praesentium id, quia eum repellendus est maxime! Harum expedita culpa eveniet quaerat.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam quasi, tempore distinctio quidem numquam ullam nisi minima asperiores sapiente! Tempora earum asperiores minus atque error. Libero laboriosam voluptatum quibusdam.</p>
-    <iframe src="pasta-de-iframes/testeinicial.html" name="frame"></iframe>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis nobis accusantium ex praesentium corporis minima quis error qui consequatur sapiente obcaecati hic, dolorum excepturi at in quas quam assumenda! Molestias.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis repellat distinctio, aperiam blanditiis, et
+        odio sunt fuga suscipit praesentium id, quia eum repellendus est maxime! Harum expedita culpa eveniet quaerat.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam quasi, tempore distinctio quidem numquam
+        ullam nisi minima asperiores sapiente! Tempora earum asperiores minus atque error. Libero laboriosam voluptatum
+        quibusdam.</p>
+    <iframe name="frame" srcdoc="<h1>Escolha uma opção </h1> <p> <lorem>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam quasi, tempore distinctio quidem numquam ullam nisi minima asperiores sapiente! Tempora earum asperiores minus atque error. Libero laboriosam voluptatum quibusdam.</p> <img src='imagens/cursoemvideo.png'> 
+    </iframe>
 </body>
+
 </html>
