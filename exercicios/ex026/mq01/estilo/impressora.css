@@ -1,0 +1,30 @@
+@charset "UTF8";
+                        
+                     /*Configuração feita para Impressora*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+menu{
+    display: none;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+}
+p{
+    text-align: justify;
+}
+
+article::after{
+    content: 'este artigo foi escrito por Marcelo Vilela no dia 18/01/2024';
+}
