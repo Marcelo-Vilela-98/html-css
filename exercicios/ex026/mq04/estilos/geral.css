@@ -9,12 +9,14 @@
         box-shadow: none;
 
     }
-
-    img#impressora {
+    
+    img#impressora{
         display: flex;
     }
 
-    img#phone { display: none;}
+    img#phone {
+        display: none;
+    }
 
     img#pc {
         display: none;
@@ -27,14 +29,17 @@
     img#tablet {
         display: none;
     }
-
-    img#impressora {
-        display: none;
+    ::after{
+        content: 'Este site foi criado por Marcelo Vilela';
     }
-
 }
 
 @media screen and (min-width:767px) and (max-width:992px) {
+
+    body {
+        background: black url(../imagens/back-tablet.jpg);
+        background-size: cover;
+    }
 
     img#tablet {
         display: flex;
@@ -52,16 +57,53 @@
         display: none;
     }
 
-    img#impressora {
-        display: none;
-    }
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
+
+    body {
+        background: black url(../imagens/back-pc.jpg) no-repeat;
+        background-size: cover;
+    }
 
     img#pc {
         display: flex;
     }
 
-    img
+    img#phone {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    body {
+        background: black url(../imagens/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img#tv {
+        display: flex;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
 }
