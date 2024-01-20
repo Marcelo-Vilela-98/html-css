@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*Regras Gerais*/
+
+@media print {
+
+    main h1 {
+        color: black;
+        box-shadow: none;
+
+    }
+
+    img#impressora {
+        display: flex;
+    }
+
+    img#phone { display: none;}
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+    img#tablet {
+        display: none;
+    }
+
+    img#impressora {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+
+    img#tablet {
+        display: flex;
+    }
+
+    img#phone {
+        display: none;
+    }
+
+    img#pc {
+        display: none;
+    }
+
+    img#tv {
+        display: none;
+    }
+
+    img#impressora {
+        display: none;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    img#pc {
+        display: flex;
+    }
+
+    img
+}
