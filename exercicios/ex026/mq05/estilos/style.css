@@ -23,11 +23,7 @@ header>h1 {
 }
 
 menu {
-    display: block;
-}
-
-menu>ul {
-    list-style-type: none;
+    display: none;
 }
 
 a {
@@ -39,6 +35,12 @@ a {
     color: white;
     border-top: 2px solid gray;
 }
+
+
+menu>ul {
+    list-style-type: none;
+}
+
 
 a:hover {
     background-color: rgb(54, 54, 54);
@@ -56,12 +58,7 @@ a:hover {
     color: white;
 }
 
-header a {
-    text-decoration: none;
-    padding: 10px;
-    color: white;
-    text-align: center;
-}
+
 
 main {
     width: 90vw;

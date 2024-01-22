@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*Telas grandes*/
+
+@media screen and (min-width:768px) {
+
+    #hamburger {
+        display: none;
+    }
+
+    menu>ul {
+        display: block;
+    }
+
+    menu>ul>li {
+        display: inline-block;
+    }
+    main{
+        width: 768px;
+    }
+}
